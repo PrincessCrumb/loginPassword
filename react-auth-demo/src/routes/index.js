@@ -6,8 +6,7 @@ import { ProtectedRoute } from "./ProtectedRoute";
 const Routes = () => {
     const { token } = useAuth();
     // Route configurations go here
-  
-  const { token } = useAuth();
+
 
   const routesForPublic = [
     {
